@@ -120,6 +120,7 @@ python manage.py createsuperuser
 
 ### App Preview :
 
+
 <table width="100%"> 
 <tr>
 <td width="50%">      
@@ -128,13 +129,17 @@ python manage.py createsuperuser
 <p align="center">
  Inventory List
 </p>
-<img src="https://user-images.githubusercontent.com/72341453/134747262-0a92233d-8010-40f8-84c5-8d94895aac44.PNG">
+<img src="https://user-images.githubusercontent.com/92335127/199919986-fa0a8311-b987-4688-84d0-f30e699b8693.png">
 </td> 
 <td width="50%">
 <br>
 <p align="center">
   Inventory Detail
 </p>
-<img src="https://user-images.githubusercontent.com/72341453/134747155-3ca5b55f-b064-4741-aeae-abe90bddf41e.PNG">  
+<img src="https://user-images.githubusercontent.com/92335127/199920081-5fe97b2c-5740-4852-a172-b14ef06f865e.png">  
 </td>
 </table>
+
+others Images
+![image](https://user-images.githubusercontent.com/92335127/199920162-86a82d2b-ebeb-42ae-b868-09f177572852.png)
+![image](https://user-images.githubusercontent.com/92335127/199920237-d4dc51da-7292-4997-afc5-9084f354d802.png)
