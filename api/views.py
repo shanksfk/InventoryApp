@@ -1,11 +1,11 @@
 from django_filters.rest_framework import FilterSet
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from .models import Inventory, Supplier
-from .serializers import InventorySerializers, SupplierSerializers
+from .models import Inventory
+from .serializers import InventorySerializers
 from rest_framework.views import APIView
 from django_filters.rest_framework import DjangoFilterBackend
-from rest_framework import filters, generics
+from rest_framework import generics
 from django_filters import rest_framework as dffilters
 
 
@@ -30,7 +30,7 @@ class ListInventories(generics.ListAPIView, FilterSet):
     queryset = Inventory.objects.all()
     serializer_class = InventorySerializers
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['name']
+    filterset_fields = ['name', 'availability']
 
     def consume_data(self, request):
 
