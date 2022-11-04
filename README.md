@@ -77,15 +77,15 @@ python manage.py runserver
 
 --> To View Detail Inventory we use API endpoint :
 
-> ⚠ Then, go to http://127.0.0.1:8000/inv/inventory/<pk>
+> ⚠ Then, go to http://127.0.0.1:8000/inv/inventory/pk
 
-replace <pk> with any integer number (e.g 1,2,3)
+replace pk with any integer number (e.g 1,2,3)
 
 --> for DRF standard interface, we use API endpoint
 
-> ⚠ Then, go to http://127.0.0.1:8000/api/inventory/<pk>
+> ⚠ Then, go to http://127.0.0.1:8000/api/inventory/pk
 
-replace <pk> with any integer number (e.g 1,2,3)
+replace pk with any integer number (e.g 1,2,3)
 
 #
 
@@ -93,9 +93,9 @@ replace <pk> with any integer number (e.g 1,2,3)
 
 --> To Filter Inventory we use API endpoint :
 
-> ⚠ Then, go to http://127.0.0.1:8000/api/inventory/?name=<param>
+> ⚠ Then, go to http://127.0.0.1:8000/api/inventory/?name=param1&availability=Param2
 
-replace <param> with any string (e.g 'Antiflu','Aspirin','Paracetamol')
+replace param1 with any string (e.g 'Antiflu','Aspirin','Paracetamol') and Param2 with True or False
 
 #
 
