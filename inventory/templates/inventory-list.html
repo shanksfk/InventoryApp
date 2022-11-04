@@ -1,0 +1,20 @@
+<html>
+
+<body>
+    <h1>Inventories</h1>
+    <ul>
+        {% for inventory in inventories %}
+        <li>{{ inventory.name }}</li>
+        <p>{{inventory.supplier.name}}</p>
+        <p>{% if inventory.availability == True %}
+            Available
+
+
+            {% else %}
+            Not Available
+            {% endif %}</p>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

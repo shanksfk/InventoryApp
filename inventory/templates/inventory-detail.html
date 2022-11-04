@@ -1,0 +1,24 @@
+<html>
+
+<body>
+    <h1>{{ inventory.name }}</h1>
+    <ul>
+        <img src="https://ik.imagekit.io/demo/default-image.jpg" style="height: 150;width:150;" />
+
+        <li>Name: {{ inventory.name }}</li>
+        <p>Supplier Name: {{inventory.supplier.name}}</p>
+        <p>availability{% if inventory.availability == True %}
+            Yes
+
+
+            {% else %}
+            No
+            {% endif %}</p>
+        <p>Stock: {{ inventory.stock }}</p>
+        <p>Description: {{ inventory.description }}</p>
+        <p>Description: {{ inventory.note }}</p>
+
+    </ul>
+</body>
+
+</html>
